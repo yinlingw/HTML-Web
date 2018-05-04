@@ -1,0 +1,142 @@
+.navbar-default .navbar-nav>.active>a {
+    background-color: rgb(20, 180, 164);
+    color: white;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #00BFFF;
+  text-align: center;}
+
+h2 {
+  font-size: 24px;
+  text-align: center;}
+    
+h3 {
+  font-size: 22px;
+  text-align: center;}
+
+p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+hr { 
+    background-color: rgba(216, 212, 212, 0.982); 
+    height: 2px; 
+    border: 0; 
+}
+
+h4 {
+    margin-bottom: 30px;
+}
+
+#v1 {
+    position:absolute;
+    top:0;
+    left:0;
+    width: 180px;
+}
+
+#viz1 {
+    position:absolute;
+    top:0;
+    left:0;
+    width: 180px;
+    border: 3px solid rgb(20, 180, 164); 
+}
+
+#v2 {
+    position:absolute;
+    top:0;
+    right:0;
+    width: 180px;
+}
+
+#viz2 {
+    position:absolute;
+    top:0;
+    right:0;
+    width: 180px;
+    border: 3px solid rgb(20, 180, 164); 
+}
+
+#v3 {
+    position:absolute;
+    bottom:0;
+    left:0;
+    width: 180px;
+}
+
+#viz3 {
+    position:absolute;
+    bottom:0;
+    left:0;
+    width: 180px;
+    border: 3px solid rgb(20, 180, 164); 
+}
+
+#v4 {
+    position:absolute;
+    bottom:0;
+    right:0;
+    width: 180px;
+}
+
+#viz4 {
+    position:absolute;
+    bottom:0;
+    right:0;
+    width: 180px;
+    border: 3px solid rgb(20, 180, 164); 
+}
+
+#map {
+    float:left;
+    width: 450px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.boxset {
+    position: relative;
+    height: 300px;
+    width: 370px;
+}
+
+
+@media (max-width:990px) {
+
+.boxset {
+    position:relative;
+    height: 100px;
+}
+
+#viz3c {
+    position:relative;
+    top:0px;
+    left:375px;
+ }
+
+#viz4w {
+    position:relative;
+    top:0px;
+    left:380px;
+ }
+
+#v3 {
+    position:relative;
+    top:0px;
+    left:375px;
+ }
+
+#v4{
+    position:relative;
+    top:0px;
+    left:380px;
+ }
+}
